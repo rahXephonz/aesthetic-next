@@ -1,0 +1,31 @@
+$black : #1D1D1D;
+$white : #fff;
+$pink : #FD6F96;
+
+@font-face {
+    font-family: 'font-file1';
+    src: local('font-file1'), local('font-file1'),
+        url('./font/Routtage.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'font-file2';
+    src: local('font-file2'), local('font-file2'),
+        url('./font/Monument.otf') format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $black;
+}
+
+.container{
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0 auto;
+}
