@@ -13,10 +13,6 @@
         
         .container{
 
-                .no-overlay{
-                    opacity: 0;
-                }
-
                 h1{
                     z-index: 1;
                     font-size: 120px;
@@ -83,10 +79,11 @@
     }
 }
 
-@media screen and (max-width: 600px){
-    .content-wrapper{
-        .content{
-            margin-top: 150px;
+@media screen and (max-width: 768px){
+    
+    .container{
+        h1, p{
+            display: none;
         }
     }
 

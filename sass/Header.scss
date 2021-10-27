@@ -14,7 +14,7 @@ header{
     }
     .logo{
         img{
-            width: 150px;
+            width: 120px;
         }
     }
 
@@ -116,7 +116,7 @@ header{
                     justify-content: space-between;
                     align-items: center;
                     position: relative;
-                    top: 250px;
+                    top: 200px;
 
                     nav{
                         display: block;
@@ -164,5 +164,18 @@ header{
                 }
             }
         }
+    }
+}
+
+
+@media screen and (max-width: 414px){
+    li{
+        font-size: 2.2rem !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    li{
+        font-size: 1.8rem !important;
     }
 }
