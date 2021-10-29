@@ -1,0 +1,119 @@
+.section-hero{
+    margin-left: 70px;
+    padding-top: 110px;
+    height: 100vh;
+
+    .container{
+        .hero-inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 24px;
+            height: 100vh;
+
+            .hero-content{
+                .hero-content-inner{
+                    color: #fff;
+
+                    h1{
+                        font-family: 'font-file2';
+                        font-size: 55px;
+                        margin-bottom: 24px;
+
+                        .hero-content-line{
+                            margin: 0;
+                            height: 55px;
+                            overflow: hidden;
+                        }
+                    }
+
+                    p{
+                        width: 449px;
+                        margin-top: 25px;
+                        font-family: 'Sora';
+                        font-size: 19px;
+                        line-height: 24px;
+                    }
+
+                    .button-row{
+                        position: relative;
+                        &:before{
+                            position: absolute;
+                            content: '';
+                            width: 56px;
+                            height: 1px;
+                            background-color: #dfdfdf;
+                            top: 50%;
+                            left: 2px;
+                        }
+
+                        button{
+                            left: 70px;
+                            margin-top: 24px;
+                            background: none;
+                            border: none;
+                            font-size: 12px;
+                            padding: 0;
+                            font-family: 'Sora';
+                            cursor: pointer;
+                            text-transform: uppercase;
+                            letter-spacing: .7px;
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+                            color: #fff;
+
+                            &:focus{
+                                outline: none;
+                            }
+                            .arrow-icon{
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                background-color: #007fff;
+                                height: 42px;
+                                width: 42px;
+                                font-size: 30px;
+                                border-radius: 100px;
+                                left: 120px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hero-images{
+                position: relative;
+                width: 50%;
+                height: 80vh;
+                .hero-images-inner{
+                
+                    .hero-image{
+                        &.hero1{
+                            position: relative;
+                            left: 30%;
+                        }
+
+                        &.hero2{
+                            position: relative;
+                            top: -200px;
+                            left: -90px;
+                        }
+
+                        img{
+                            width: 375px;
+                            height: 611px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section-hero{
+        display: none;
+    }
+}

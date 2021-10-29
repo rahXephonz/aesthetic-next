@@ -1,6 +1,13 @@
+import React from "react"
+import Image from "next/image"
+import Heros from "../Images/heros.png"
+
 const Content = () => {
 
+    
+
     return (
+    <>
         <div className="content-wrapper">
             <div className="content">
                 <div className="container">
@@ -9,8 +16,9 @@ const Content = () => {
                     <p>New Arrivals!</p>
                 </div>
             </div>
+            <div className="Image-wrapper"><Image src={Heros} alt="heros"/></div>
         </div>
-
+    </>
     )
 }
 

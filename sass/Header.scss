@@ -14,7 +14,7 @@ header{
     }
     .logo{
         img{
-            width: 120px;
+            width: 125px;
         }
     }
 
@@ -25,7 +25,7 @@ header{
     }
 
     .hamburger .line{
-        width: 45px;
+        width: 40px;
         height: 2px;
         right: 20px;
         background-color: #ecf0f1;
@@ -167,15 +167,55 @@ header{
     }
 }
 
+@media screen and (max-width: 768px){
+    li{
+        font-size: 3.7rem !important;
+    }
+
+    header{
+        .logo{
+            img{
+                width: 105px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 540px){
+    li{
+        font-size: 3.2rem !important;
+    }
+
+    header{
+        .logo{
+            img{
+                width: 105px;
+            }
+        }
+
+        .overlay-1{
+            margin-top: -390px !important;
+        }
+    }
+}
+
 
 @media screen and (max-width: 414px){
     li{
-        font-size: 2.2rem !important;
+        font-size: 2.1rem !important;
+    }
+
+    header{
+        .logo{
+            img{
+                width: 105px;
+            }
+        }
     }
 }
 
 @media screen and (max-width: 320px){
     li{
-        font-size: 1.8rem !important;
+        font-size: 1.6rem !important;
     }
 }
